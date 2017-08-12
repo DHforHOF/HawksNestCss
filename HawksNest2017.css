@@ -1,0 +1,563 @@
+/* ######### Main Body Rules ######### */
+
+#body_home {background: #000 url(http://i.imgur.com/brAfqi3.png) no-repeat center top;}
+
+body {
+  margin:0px;
+  margin-top: 24px;
+  padding: 0px;
+  background: #000 url(http://i.imgur.com/exeiSW9.png) no-repeat center top;
+  background-position:center top;
+  margin-top: 0px;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 9pt;
+
+}
+
+
+
+.pageheader {
+	display: none;
+}
+
+.welcome {
+	display:none;
+}
+
+	.brandlogo {
+display:none;
+}
+
+.pagetitle {
+	display: none;
+}
+
+.pagefooter {
+	visibility : hidden;
+}
+	
+.pagefooter table{
+	display:none;
+}
+
+:root {
+	overflow-y: scroll !important;
+}
+
+
+a:link, a:visited, a:active {color: #fff;}
+a:hover {color: #00ff00;}
+
+th {
+  color: #fff;
+  font-style: normal;
+  font-weight: normal;
+  background: #000 url(right_caption_selected.gif) repeat-x;
+  height: 17px;
+  line-height: 17px;
+}
+
+th a:link, th a:visited, th a:active {
+  color: url(http://i.imgur.com/0lGD6Jk.gif)repeat-x center;
+  font-weight:bold;
+}
+
+th a:hover {
+  color: #00f;
+  font-weight:bold;
+}
+
+h3 {
+  font-size: 9pt;
+  font-weight: bold;
+  color: #00ff00;
+  background-color: #000;
+  border: 2px ridge #fff;
+}
+
+h3 a:link, h3 a:visited, h3 a:active {
+  color: #fff;
+}
+
+h3 a:hover {
+  color: #00ff00;
+}
+
+textarea {width: 98%;}
+
+
+/* ######### End Main Body Rules ######### */
+
+
+
+/* ######### General Page Setup Rules ######### */
+
+
+.pagebody {
+  margin-top: none;
+  background: transparent;
+
+}
+
+.pagefooter {
+  clear: both;
+}
+
+.oddtablerow {
+background-color: #282828;
+}
+.eventablerow {
+background-color: #282828; 
+} 
+
+.oddtablerow td {
+border: 1px solid #333333;
+}
+
+.eventablerow td {
+border: 1px solid #333333;
+}
+
+.report{
+margin-top: 2px;
+background-color: #1c1c1c;
+-moz-border-radius-topleft: 15px 15px;
+-moz-border-radius-topright: 15px 15px;
+-moz-border-radius-bottomleft: 15px 15px;
+-moz-border-radius-bottomright: 15px 15px;
+-webkit-border-radius-topleft: 15px 15px;
+-webkit-border-radius-topright: 15px 15px;
+-webkit-border-radius-bottomleft: 15px 15px;
+-webkit-border-radius-bottomright: 15px 15px;
+border: 1px solid #2e2e2e;
+padding: 10px;
+padding-top: 25px;
+}
+.homepagemodule {border: none;}
+
+
+/* ######### End General Page Setup Rules ######### */
+
+
+
+/* ######### Page Header Rules ######### */
+
+
+#pageheader_image {
+  height:0px;
+  background: #00ff00 url(contentheader_caption.gif);
+  position:absolute;
+  top: 0px;
+  left: 0px;
+  width:100%;
+}
+
+.pagetitle h1{
+  font-size:18px;
+  font-weight:bold;
+  color:#00ff00;
+  text-align:left;
+}
+
+.pageheader {
+  color: #fff;
+  background: #000 url(banner_strip.jpg) repeat-x center;
+  height: 70px;
+}
+
+/* ######### End Page Header Rules ######### */
+
+
+
+/* ######### Start Remove Span ######### */
+
+#standings caption span, #league_chat caption span {
+	visibility: hidden;
+}
+
+/* ######### END Remove Span ######### */
+
+
+
+/* ######### Caption Rules ######### */
+
+
+
+.homepagecolumn .homepagemodule caption, .pagebody caption, caption {
+  background: url(http://i.imgur.com/6Byakqi.png) no-repeat center;
+  height:60px;
+  line-height: 75px;
+  color: #fff;
+  font-size: 9pt;
+  font-weight: bold;
+  padding: 0px;
+}
+
+caption a:link, caption a:visited, caption a:active {color: #fff;}
+caption a:hover {color: #00ff00;}
+
+#standings caption { 
+        background: transparent url(http://i.imgur.com/t5SsWNN.png) no-repeat ;
+        background-position:center;
+        height: 60px;
+	line-height: 75px;
+	margin-bottom: 20px;
+        width: 900px;
+}
+
+#league_chat caption { 
+        background: transparent url(http://i.imgur.com/72jdy4K.png) no-repeat ;
+        background-position:center;
+        height: 60px;
+	line-height: 75px;
+	margin-bottom: 10px;
+        width: 900px;
+}
+
+#body_options_101 caption { 
+        background: transparent url(http://i.imgur.com/4q6p5kl.png) no-repeat ;
+        background-position:center;
+	height: 60px;
+	line-height: 75px;
+}
+
+#top_fa caption, #top_performers caption, #weekly_mvp caption, #weekly_mvp_starters caption {
+	display: none;
+} 
+
+#brief_standings caption {
+	background: url(http://i.imgur.com/4q6p5kl.png) no-repeat;
+	background-position:center;
+	height: 60px;
+	line-height: 75px;
+	margin-bottom: 6px;
+}
+
+#owner_activity caption, #welcome caption, #league_links caption, #my_links caption, #my_options caption  {
+	background: url(http://i.imgur.com/4q6p5kl.png) no-repeat;
+	background-position:center;
+	height: 60px;
+	line-height: 75px;
+	
+}
+
+#submit_lineup caption  {
+	background: #000;
+	background-position:center;
+        height: 118px;
+		
+}
+
+#article caption  {
+	background: url(http://i.imgur.com/4q6p5kl.png) no-repeat;
+	background-position:center;
+	height: 60px;
+	line-height: 75px;
+	
+}
+
+#commish_poll caption, #poll caption  {
+	background: url(http://i.imgur.com/4q6p5kl.png) no-repeat;
+	background-position:center;
+	height: 60px;
+	line-height: 75px;
+	
+}
+
+#nflschedule caption {
+	background: url(http://i.imgur.com/rSkEZfe.png) no-repeat;
+	background-position:center;
+	margin-left: 0px;
+	height: 60px;
+	line-height: 75px;
+}
+
+#roster caption {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        width: 400px;
+}
+
+#body_options_22 caption {
+        background: #000;
+        background-position:center;
+        height: 120px;        
+}
+
+#body_options_02 caption  {
+	background: #000;
+	background-position:center;
+        height: 118px;
+		
+}
+
+#body_options_118 caption  {
+        background: #000;
+        background-position:center;
+        height: 120px;        
+}
+
+
+#waivers caption  {
+        background: #000;
+        background-position:center;
+        height: 120px;        
+}
+
+
+
+
+/* ######### END Captions ######### */
+
+
+
+/* ######### Start Franchise Icon Sizes ######### */
+
+
+
+/* ######### End Franchise Icon Sizes ######### */
+
+
+
+
+/* ######### Rules for the Front Page Tabs ######### */
+
+
+
+#homepagetabs li{width:98px;}
+
+#homepagetabs {
+	font: bold 11px Verdana;
+	font-family:Arial, Helvetica, sans-serif;
+	list-style-type: none;
+	text-align: center; /*set to left, center, or right to align the menu as desired*/
+	background; none;
+	background-position: center;
+        background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	height:150px;
+	line-height:8px;
+	color:#ffffff;
+	margin-top: -60px;
+        margin-left: 12.4px;
+        
+	padding: 0px;
+        padding-bottom: 5px;
+        width: 995px;
+        
+}
+#homepagetabs ul, #homepagetabs li {
+	position: relative;
+        top: 35px;
+        display: inline;
+	list-style-type: none;
+	margin: 0;
+	border: transparent;
+	background: transparent;
+	float: left;
+	line-height: 62px;
+	margin-right: auto;
+	padding: 0px;
+        text-decoration: none;
+	cursor: pointer;
+}
+#homepagetabs li.currenttab {
+	cursor:default;
+	background: transparent;
+        border-bottom: transparent;
+	color: #00ff00;
+	
+}
+#homepagetabs ul, #homepagetabs li:hover{
+        background: url(http://i.imgur.com/HtykVHm.png) no-repeat center;}
+        border-bottom: 1px solid #fff;
+	color: #00ff00;
+}
+#homepagetabs ul, #homepagetabs li:hover{ /*selected main tab style */
+	text-decoration: none;
+}
+#homepagetabs ul, #homepagetabs li {
+        text-decoration: 1px solid #00ff00;
+}
+
+
+/* ######### End Rules for the Front Page Tabs ######### */
+
+
+
+/* ######### Rules for the Main Content Frame ######### */
+
+
+#contentframe {
+  margin: 0px;
+  padding-left: 0px;
+  padding-top: 05px;
+  padding-right: 5px;
+}
+
+#contentframe table {
+  width: 98%;
+}
+
+.homepagecolumn .homepagemodule,
+.homepagecolumn #monthly_calendar,
+.report,
+.playoffbracket
+{
+  width:98%;
+  border: none;
+}
+
+.homepagecolumn .homepagemodule caption {width: 98%}
+
+
+table.two_column_layout {width: 98%;}
+td.two_column_layout {width: 50%;}
+
+
+/* ######### End Rules for the Main Content Frame ######### */
+
+
+
+/* ######### Start Standings Report Adjustments ######### */
+
+.h2hw, .h2hl, .h2ht, .gb, .strk, .pf, .pb, .op, .dp, .maxpf, .minpf, .divw, .divl, .h2hwlt, .h2hpct, 
+
+.avgpf, .avgpa, .divwlt { 
+	width: 90px; 
+}
+
+#homepagecolumns #standings .h2hw, #homepagecolumns #standings .h2hl, 
+
+#homepagecolumns #standings .h2ht, #homepagecolumns #standings .pb, 
+
+#homepagecolumns #standings .strk, #homepagecolumns #standings .pf, 
+
+#homepagecolumns #standings .op, #homepagecolumns #standings .divw, 
+
+#homepagecolumns #standings .divl, #homepagecolumns #standings .h2hwlt, 
+
+#homepagecolumns #standings .h2hpct, #homepagecolumns #standings .avgpf,
+
+#homepagecolumns #standings .minpf, #homepagecolumns #standings .dp, 
+
+#homepagecolumns #standings .maxpf, #homepagecolumns #standings .divwlt { 
+	width: 90px; 
+}
+
+/* ######### End Standings Report Adjustments ######### */
+
+
+
+
+/* ######### Live Scoring Page Adjustments ######### */
+
+
+#live_scoring_summary caption
+{ background: transparent;
+	background-position:left;
+	margin-left: 0px;
+	height: 60px;
+	line-height: 75px; }
+
+
+/* ######### End Live Scoring Page Adjustments ######### */
+
+
+
+/* ######### Misc asthetic corrections ######### */
+
+
+#monthly_calendar td, #monthly_calendar th {border: 1px solid #4e6b8b;}
+
+h3.warning {
+  padding: 20px 0px;
+  background-color: #4e6b8b;
+  font-size: 12pt;
+}
+
+#options_18 form > table {border:none;}
+#options_98 form > table {border:none;}
+
+#kickoff_countdown h3, #draft_countdown h3, #auction_countdown h3, #calendar_countdown h3 {
+  color: #00ff00;
+  background-color: transparent;
+}
+
+.homepagemessage {border: none;}
+
+#contentframe #article table, #options_73 .articlepicturetable {width: auto;}
+#article td {padding: 5px;}
+
+#options_20 table table {
+   width: auto;
+}
+
+#roster caption {
+height: 100px;
+}
+
+.pageheader {display:none;}
+
+ 
+
+#options_07 caption {
+height: 105px;
+}
+
+#options_02 caption {
+height: 125px;
+}
+
+#options_02 Table.report {
+    background-color: #00ff00;
+}
+
+img.ava{height: 100px;width: 250px;}
+
+
+#options_07 caption, #roster caption {background: #000; height: 125px; }
+
+
+
+.myfranchise, .myfranchise a, .myfranchise a:link, .myfranchise a:visited, .myfranchise a:hover, .myfranchise a:active {
+    font-weight: bold;
+        color: #00ff00;
+}
+
+#menu0 {display:none;}
+
+
+/* ######### End Misc asthetic corrections ######### */
+
+
+
+
+/* ######### Movie Room ######### */
+
+#movieScreen {  
+background-color: black;
+background-image: url();
+height: 350
+width: 500px;
+#width: 360px;
+margin: 150px 0 0 150px;
+#margin: 140px 20px 0 0;
+}
+
+#movieTheater {
+margin: 0px auto;
+width: 800px;
+height: 600px;
+background-color: transparent;
+background-image: url();
+background-repeat: no-repeat;
+background-position: 50% 0%;
+}
+
+/* ######### End Movie Room ######### */
+
+
+/* ######### End Css File ######### */
