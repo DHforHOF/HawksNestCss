@@ -325,7 +325,7 @@ caption a:hover {color: #00ff00;}
 
 
 
-#homepagetabs li{width:98px;}
+#homepagetabs li{width:auto;}
 
 #homepagetabs {
 	font: bold 11px Verdana;
@@ -337,7 +337,7 @@ caption a:hover {color: #00ff00;}
         background-repeat: no-repeat;
 	margin-left: auto;
 	margin-right: auto;
-	height:autopx;
+	height:auto;
 	line-height:8px;
 	color:#ffffff;
 	margin-top: -60px;
@@ -350,7 +350,7 @@ caption a:hover {color: #00ff00;}
 }
 #homepagetabs ul, #homepagetabs li {
 	position: relative;
-        top: autopx;
+        top: auto;
         display: inline;
 	list-style-type: none;
 	margin: 0;
